@@ -153,7 +153,7 @@ footer{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    
+   
     
 }
 .socialmedia {
@@ -179,7 +179,6 @@ footer{
     display: flex;
    flex-flow: row nowrap;
    gap: 10px;
-    align-items: center; 
    
 }
 .icons img{
@@ -187,10 +186,53 @@ footer{
     
 }
 .contacting{
+    margin-top: 100px;
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;         
+    gap: 86px;
+    
+
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact h3{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 32px;
+}
+.contact a{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 17px;
+   color: #5863E3;
+   
+}
+.lastinfo{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 15px;
+}
+.lastinfo p{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 17px;
+   color: white;
+   
+   
+}
+.lastinfo img{
+    width: 20px;
+    
+    
+   
+}
+
 
 
 
