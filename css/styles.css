@@ -53,14 +53,14 @@ textarea::placeholder{
     height: 316px;
    
 }
-.signin input[type="text"]{
+.signin input[type="text"], .signin input[type="email"]{
     height:60px;
     margin-bottom: 20px;
     border: 2px solid #D4D3D34D;
    padding:22px 0 22px 19px;
     
 }
-.signin input[type="text"]::placeholder{
+.signin input[type="text"] , .signin input[type="email"]::placeholder{
     font-family: Helvetica;
     font-weight: 700;
     font-size: 15px;
@@ -100,9 +100,19 @@ textarea::placeholder{
       border-radius: 50%;
       background-color: #5968F4;
 }
-.circle img{
-    position: absolute;
-    
+.sec2 h3{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    color:#4E4D54;
+   
+}
+.sec2 p{
+   font-family: Helvetica;
+   font-weight: 700;
+   font-size: 15px;
+   color: #99999A;
+
 }
 
 
