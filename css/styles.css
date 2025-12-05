@@ -26,7 +26,7 @@ header h1{
     
 }
 .sec1{
- margin: 0 450px 70px 300px;
+ padding: 0 450px 0 300px;
 }
 form{
     display: flex;
@@ -189,7 +189,7 @@ footer{
     margin-top: 100px;
     display: flex;
     flex-flow: row nowrap;
-    gap: 86px;
+    gap: 50px;
     
 
 }
